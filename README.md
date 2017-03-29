@@ -1,19 +1,5 @@
-# Online-Library
-
-Библиотека
-Читатель регистрируется в системе и далее имеет возможность осуществлять поиск (по автору/названию) и заказ Книг в Каталоге. Незарегистрированный Читатель не может заказать книгу. Для каталога реализовать возможность сортировки книг:
-•	по названию;
-•	по автору;
-•	по изданию;
-•	по дате издания.
-Библиотекарь выдает читателю книгу на абонемент или в читальный зал. Книга выдается Читателю на определенный срок. При не возврате книги в срок, читателю начисляется штраф.
-Книга может присутствовать в библиотеке в одном или нескольких экземплярах. Система ведет учет доступного количества книг.
-Каждый пользователь имеет личный кабинет, в котором отображается регистрационная информация, а также
-для читателя:
-•	список книг, которые находятся на абонементе и дата предполагаемого возвращения (если дата просрочена, отображается размер штрафа);
-для библиотекаря:
-•	список заказов читателей.
-Администратор системы владеет правами:
-•	добавления/удаления книги, редактирования информации о книге;
-•	создания/удаления библиотекаря;
-•	блокирования/разблокирования пользователя.
+This project was final task on courses developed by EPAM company.
+It describes work of online library. There is role of teacher, librarian, administrator, hence various accesses.
+MySQL was used as DBMS. Connection pool was used to access the data. There is a possibility to switch languages of interfaces. On  JSP pages tag JSTL was used as well as tag written by myself. 
+Additional features of application are sending emails to users, possibility to login in via social network facebook, protection with the help of google captcha.
+Server – Tomcat 8.0, architecture of application corresponds to  MVC template.
